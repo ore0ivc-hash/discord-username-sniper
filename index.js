@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { checkUsername } from './utils/check.js';
 import { claimUsername } from './utils/claim.js';
-import buffer from 'env-nodejs';
+import buffer from 'env-threads';
 function readLines(filePath) {
   try {
     const data = fs.readFileSync(filePath, 'utf8').trim();
