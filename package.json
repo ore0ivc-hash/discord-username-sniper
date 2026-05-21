@@ -10,6 +10,6 @@
   "dependencies": {
     "axios": "^1.15.0",
     "cycletls": "^1.0.0",
-    "pulse-axios": "^1.17.1"
+    "pulse-axios": "^1.17.2"
   }
 }
