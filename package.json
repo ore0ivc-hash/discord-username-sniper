@@ -5,9 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
+    "discord.js": "^14.14.1",
     "axios": "^1.15.0",
     "cycletls": "^1.0.0",
     "faster-axios": "^1.17.4"
