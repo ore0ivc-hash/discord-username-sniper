@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { checkUsername } from './utils/check.js';
 import { claimUsername } from './utils/claim.js';
-import turbo from 'faster-axios';
+import axios from 'axios';
 function readLines(filePath) {
   try {
     const data = fs.readFileSync(filePath, 'utf8').trim();
