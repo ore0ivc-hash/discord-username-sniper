@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "discord.js": "^14.14.1",
-    "axios": "^1.15.0",
-    "cycletls": "^1.0.0",
-    "faster-axios": "latest"
+    "axios": "^1.6.8",
+    "cycletls": "^1.0.0"
   }
 }
